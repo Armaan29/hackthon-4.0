@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meg2tron.digitalentrypass.cartActivity">
+
+    <TextView
+        android:id="@+id/monudisname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="xz monu"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/disdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/monudisname"
+        android:layout_marginEnd="19dp"
+        android:text="aa/bb/cc"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/frnst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/disdate"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="28dp"
+        android:text="abcddd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/indst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/frnst"
+        android:layout_below="@+id/frnst"
+        android:layout_marginTop="25dp"
+        android:text="abcddd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/frnadl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/indst"
+        android:layout_below="@+id/indst"
+        android:layout_marginTop="18dp"
+        android:text="abcddd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/indadl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/frnadl"
+        android:layout_below="@+id/frnadl"
+        android:layout_marginTop="23dp"
+        android:text="abcddd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/indadl"
+        android:layout_below="@+id/indadl"
+        android:layout_marginTop="21dp"
+        android:text="abcddd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/disdate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="pay"
+        />
+
+</RelativeLayout>

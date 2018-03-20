@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1037939901859",
+    "firebase_url": "https://digitalentrypass.firebaseio.com",
+    "project_id": "digitalentrypass",
+    "storage_bucket": "digitalentrypass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037939901859:android:46e432cd2ac6f64b",
+        "android_client_info": {
+          "package_name": "com.example.meg2tron.digitalentrypass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037939901859-mfaq87er37l2knr5uckvkneb8loe5i4m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1037939901859-635m7q24eka6v2kh8boo735tkhojs5dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meg2tron.digitalentrypass",
+            "certificate_hash": "843dccee6f154634e5b99494392c4c6bd27cc296"
+          }
+        },
+        {
+          "client_id": "1037939901859-u78t9ea1ge8njh1b6f48d0dj4qfp3f0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfI5kz0_wtDZhIlk0WY9CAM2_NkonHNU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037939901859-mfaq87er37l2knr5uckvkneb8loe5i4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
